@@ -1,0 +1,182 @@
+body{
+    background-color: black;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#topleft{
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    display:block;
+}
+
+#plus{
+    background-color: aqua;
+    border-radius: 50%;
+    border: 2px solid rgb(7, 164, 226);
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    position: absolute;
+    right: 177px;
+    top: 40px;
+}
+.text{
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    right: 75px;
+    top: 46px;
+}
+#popup1{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(235, 149, 36);
+    border-radius: 4%;
+    display: none;
+    position: absolute;
+    top: 150px;
+    left: 550px;
+}
+
+.both{
+    margin-top: 10px;
+}
+p{
+    color: brown;
+    font-size: 20px;
+    margin-left: 125px;
+}
+#inp{
+    height: 35px;
+    border-radius: 3px;
+    width: -webkit-fill-available;
+}
+#btn1{
+    height: 50px;
+    width: 100px;
+    border-radius: 20%;
+    color: rgb(255, 0, 30);
+    font-size: 20px;
+    margin: 2px;
+}
+#btn2{
+    height: 50px;
+    width: 100px;
+    border-radius: 20%;
+    color: red;
+    font-size: 20px;
+}
+.buttons{
+    margin-top: 31px;
+    margin-left: 85px;
+    
+}
+#card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.popup2{
+    width: 200px;
+    height: 340px;
+    background-color: white;
+    border-radius: 4%;
+    
+}
+.p2{
+    margin-left: 50px;
+}
+.container2{
+    position: absolute;
+    top: 360px;
+}
+
+.delete{
+    background-color: rgb(172, 196, 37);
+    border-radius: 50%;
+    border: 2px solid rgb(50, 186, 239);
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.add{
+    background-color: rgb(50, 186, 239);
+    border-radius: 50%;
+    border: 2px solid rgb(50, 186, 239);
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.popup3{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    border-radius: 4%;
+    display: none;
+    position: absolute;
+    top: 150px;
+    left: 550px;
+}
+.addtask{
+    height: 50px;
+    width: 100px;
+    border-radius: 20%;
+    color: blue;
+    font-size: large;
+}
+.closetask{
+    height: 50px;
+    width: 100px;
+    border-radius: 20%;
+    color: blue;
+    font-size: large;
+}
+.inp2{
+    height: 35px;
+    border-radius: 3px;
+    width: -webkit-fill-available;
+}
+.checked{
+    text-decoration:line-through;
+    color:green;
+}
+#back{
+    background-color: aqua;
+    border-radius: 50%;
+    border: 2px solid rgb(7, 164, 226);
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    position: absolute;
+    left: 106px;
+    top: 40px;
+    display:none;
+}
+#ba{
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    left: 150px;
+    top: 46px;
+    display:none;
+}
+#heading{
+    width:300px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50px;
+}
